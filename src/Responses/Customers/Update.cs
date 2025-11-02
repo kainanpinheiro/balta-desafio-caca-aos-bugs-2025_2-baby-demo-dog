@@ -1,6 +1,10 @@
 namespace BugStore.Responses.Customers;
 
-public class Update
+public record UpdateCustomersResponse
 {
-    
+    public Guid Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Phone { get; set; }
+    public DateTime BirthDate { get; set; }
 }

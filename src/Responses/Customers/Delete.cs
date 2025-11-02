@@ -1,6 +1,6 @@
 namespace BugStore.Responses.Customers;
 
-public class Delete
+public record DeleteCustomersResponse
 {
     
 }
